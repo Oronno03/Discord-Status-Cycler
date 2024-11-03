@@ -80,10 +80,15 @@ In the script, you can adjust these constants:
 3. **Stop the Script:**  
    Press `Ctrl + C` at any time to stop the script.
 
+## Example Console Output
+
+![example1](image.png)
+![example2](image-1.png)
+
 ## Troubleshooting
 
 - **Invalid Token:** If the token is incorrect, the script will output an error message. Ensure your token is correctly pasted in the script.
-- **File Not Found:** If `statuses.txt` or `FILENAME` (in the script) is missing, the script will notify you. Ensure the file exists in the same directory.
+- **File Not Found:** If `statuses.txt` (FILENAME) is missing, the script will notify you. Ensure the file exists in the same directory.
 - **Invalid Mode:** If a mode is misspelled or unsupported, the script will log an error and use the previous valid mode.
 
 ## Disclaimer

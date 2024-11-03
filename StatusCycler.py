@@ -71,7 +71,7 @@ def read_statuses(filename):
 
             else:
                 console.print(
-                    f"[bold yellow]Warning:[/bold yellow] Using last mode '{last_mode}' for line {line_number}: '{line}'."
+                    f"[bold yellow]Warning:[/bold yellow] Using last mode '{last_mode}' for line {line_number}: {line}."
                 )
                 statuses.append((line.strip(), last_mode))
     return statuses
